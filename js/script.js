@@ -45,7 +45,7 @@ const teamList = document.getElementById('team-list');
 let items = '';
 for(let i = 0; i < teamMembers.length; i++){
     const member = teamMembers[i];
-    items += `<li><img src="img/${member.image}" alt=""> <br> ${member.nameSurname} - ${member.role}  </li>`;
+    items += `<li class="col-4 p-4"><img src="img/${member.image}" alt=""> <div class="d-flex justify-content-center fst-italic fs-3">${member.nameSurname}</div> <div class="d-flex justify-content-center">${member.role}</div>  </li>`;
 } 
 
 teamList.innerHTML = items;

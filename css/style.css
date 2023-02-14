@@ -7,11 +7,23 @@
     list-style-type: none;
 }
 
+body{
+    background-color: var(--gray);
+}
+
+#team-list div{
+    background-color: white;
+}
+
 /*utilities*/
 :root{
-    --gray: #737373;
+    --gray: #cecbcb;
 }
 
 .margin-bt{
     margin-bottom: 20px;
+}
+
+img{
+    width: 100%;
 }
